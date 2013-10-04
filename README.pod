@@ -93,6 +93,10 @@ Optional if textmessage available, you can provide both fields
 
 Optional : reply to email field
 
+=item attachments => ['/path/to/your/attachment.pdf']
+
+arrayref of files you want to send as an attachment
+
 =item resend => 1
 
 Optional : When sending a message, a unique hash will be created to prevent resending
